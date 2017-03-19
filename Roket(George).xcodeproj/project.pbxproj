@@ -12,9 +12,20 @@
 		38664EDC1E7BDA2D0041AF17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38664EDA1E7BDA2D0041AF17 /* Main.storyboard */; };
 		38664EDE1E7BDA2D0041AF17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38664EDD1E7BDA2D0041AF17 /* Assets.xcassets */; };
 		38664EE11E7BDA2D0041AF17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38664EDF1E7BDA2D0041AF17 /* LaunchScreen.storyboard */; };
+		38664EEB1E7C330C0041AF17 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38664EE91E7C22BC0041AF17 /* CoreMotion.framework */; };
+		386722D31E7E72540075E275 /* AuthStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386722D21E7E72540075E275 /* AuthStoryboard.storyboard */; };
+		386722D51E7E75760075E275 /* LoginUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386722D41E7E75760075E275 /* LoginUserViewController.swift */; };
+		386722D71E7E75860075E275 /* SignupUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386722D61E7E75860075E275 /* SignupUserViewController.swift */; };
+		3883EFB51E7D130C00B37C0C /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3883EFB41E7D130C00B37C0C /* ProfileTableViewController.swift */; };
+		3883EFB71E7D135200B37C0C /* InviteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3883EFB61E7D135200B37C0C /* InviteViewController.swift */; };
+		3883EFB91E7D136C00B37C0C /* ChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3883EFB81E7D136C00B37C0C /* ChallengeViewController.swift */; };
+		3883EFBC1E7D154900B37C0C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3883EFBB1E7D154900B37C0C /* GoogleService-Info.plist */; };
+		3883EFBF1E7D4A9600B37C0C /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3883EFBE1E7D4A9600B37C0C /* HealthKit.framework */; };
+		72D2E4DBE93F61869848F031 /* Pods_Roket_George_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DD44F64BEE59D039291BF4 /* Pods_Roket_George_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09DD44F64BEE59D039291BF4 /* Pods_Roket_George_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Roket_George_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38664ED31E7BDA2D0041AF17 /* Roket(George).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Roket(George).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38664ED61E7BDA2D0041AF17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38664ED81E7BDA2D0041AF17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +33,18 @@
 		38664EDD1E7BDA2D0041AF17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38664EE01E7BDA2D0041AF17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38664EE21E7BDA2D0041AF17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38664EE91E7C22BC0041AF17 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		386722D21E7E72540075E275 /* AuthStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AuthStoryboard.storyboard; sourceTree = "<group>"; };
+		386722D41E7E75760075E275 /* LoginUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginUserViewController.swift; sourceTree = "<group>"; };
+		386722D61E7E75860075E275 /* SignupUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupUserViewController.swift; sourceTree = "<group>"; };
+		3883EFB41E7D130C00B37C0C /* ProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		3883EFB61E7D135200B37C0C /* InviteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteViewController.swift; sourceTree = "<group>"; };
+		3883EFB81E7D136C00B37C0C /* ChallengeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeViewController.swift; sourceTree = "<group>"; };
+		3883EFBB1E7D154900B37C0C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3883EFBD1E7D4A9600B37C0C /* Roket(George).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Roket(George).entitlements"; sourceTree = "<group>"; };
+		3883EFBE1E7D4A9600B37C0C /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		5028BF6C90237BA5EBE4E3E8 /* Pods-Roket(George).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roket(George).debug.xcconfig"; path = "Pods/Target Support Files/Pods-Roket(George)/Pods-Roket(George).debug.xcconfig"; sourceTree = "<group>"; };
+		DA9235FABB3F76FA3B3424AA /* Pods-Roket(George).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roket(George).release.xcconfig"; path = "Pods/Target Support Files/Pods-Roket(George)/Pods-Roket(George).release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +52,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3883EFBF1E7D4A9600B37C0C /* HealthKit.framework in Frameworks */,
+				38664EEB1E7C330C0041AF17 /* CoreMotion.framework in Frameworks */,
+				72D2E4DBE93F61869848F031 /* Pods_Roket_George_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +66,8 @@
 			children = (
 				38664ED51E7BDA2D0041AF17 /* Roket(George) */,
 				38664ED41E7BDA2D0041AF17 /* Products */,
+				38664EE81E7C22BC0041AF17 /* Frameworks */,
+				7E1E7E393CC91AF20ECF6508 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +82,57 @@
 		38664ED51E7BDA2D0041AF17 /* Roket(George) */ = {
 			isa = PBXGroup;
 			children = (
+				3883EFBD1E7D4A9600B37C0C /* Roket(George).entitlements */,
 				38664ED61E7BDA2D0041AF17 /* AppDelegate.swift */,
-				38664ED81E7BDA2D0041AF17 /* ViewController.swift */,
-				38664EDA1E7BDA2D0041AF17 /* Main.storyboard */,
+				3883EFBA1E7D137500B37C0C /* Model */,
+				3883EFB11E7D110400B37C0C /* Storyboard */,
 				38664EDD1E7BDA2D0041AF17 /* Assets.xcassets */,
 				38664EDF1E7BDA2D0041AF17 /* LaunchScreen.storyboard */,
+				3883EFBB1E7D154900B37C0C /* GoogleService-Info.plist */,
 				38664EE21E7BDA2D0041AF17 /* Info.plist */,
 			);
 			path = "Roket(George)";
+			sourceTree = "<group>";
+		};
+		38664EE81E7C22BC0041AF17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3883EFBE1E7D4A9600B37C0C /* HealthKit.framework */,
+				38664EE91E7C22BC0041AF17 /* CoreMotion.framework */,
+				09DD44F64BEE59D039291BF4 /* Pods_Roket_George_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3883EFB11E7D110400B37C0C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				386722D21E7E72540075E275 /* AuthStoryboard.storyboard */,
+				38664EDA1E7BDA2D0041AF17 /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		3883EFBA1E7D137500B37C0C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				38664ED81E7BDA2D0041AF17 /* ViewController.swift */,
+				386722D41E7E75760075E275 /* LoginUserViewController.swift */,
+				386722D61E7E75860075E275 /* SignupUserViewController.swift */,
+				3883EFB61E7D135200B37C0C /* InviteViewController.swift */,
+				3883EFB81E7D136C00B37C0C /* ChallengeViewController.swift */,
+				3883EFB41E7D130C00B37C0C /* ProfileTableViewController.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7E1E7E393CC91AF20ECF6508 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5028BF6C90237BA5EBE4E3E8 /* Pods-Roket(George).debug.xcconfig */,
+				DA9235FABB3F76FA3B3424AA /* Pods-Roket(George).release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +142,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38664EE51E7BDA2D0041AF17 /* Build configuration list for PBXNativeTarget "Roket(George)" */;
 			buildPhases = (
+				339FD65112D4A158E55D42C7 /* [CP] Check Pods Manifest.lock */,
 				38664ECF1E7BDA2D0041AF17 /* Sources */,
 				38664ED01E7BDA2D0041AF17 /* Frameworks */,
 				38664ED11E7BDA2D0041AF17 /* Resources */,
+				5D4337359BEB0CC02F840A4B /* [CP] Embed Pods Frameworks */,
+				24EAC43DE476B08268ADF567 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,7 +170,16 @@
 				TargetAttributes = {
 					38664ED21E7BDA2D0041AF17 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3CZ53G4TP3;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+							com.apple.WAC = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -124,12 +207,62 @@
 			buildActionMask = 2147483647;
 			files = (
 				38664EE11E7BDA2D0041AF17 /* LaunchScreen.storyboard in Resources */,
+				386722D31E7E72540075E275 /* AuthStoryboard.storyboard in Resources */,
 				38664EDE1E7BDA2D0041AF17 /* Assets.xcassets in Resources */,
 				38664EDC1E7BDA2D0041AF17 /* Main.storyboard in Resources */,
+				3883EFBC1E7D154900B37C0C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24EAC43DE476B08268ADF567 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Roket(George)/Pods-Roket(George)-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		339FD65112D4A158E55D42C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5D4337359BEB0CC02F840A4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Roket(George)/Pods-Roket(George)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		38664ECF1E7BDA2D0041AF17 /* Sources */ = {
@@ -137,7 +270,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				38664ED91E7BDA2D0041AF17 /* ViewController.swift in Sources */,
+				3883EFB91E7D136C00B37C0C /* ChallengeViewController.swift in Sources */,
+				3883EFB51E7D130C00B37C0C /* ProfileTableViewController.swift in Sources */,
+				3883EFB71E7D135200B37C0C /* InviteViewController.swift in Sources */,
 				38664ED71E7BDA2D0041AF17 /* AppDelegate.swift in Sources */,
+				386722D51E7E75760075E275 /* LoginUserViewController.swift in Sources */,
+				386722D71E7E75860075E275 /* SignupUserViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +394,11 @@
 		};
 		38664EE61E7BDA2D0041AF17 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5028BF6C90237BA5EBE4E3E8 /* Pods-Roket(George).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Roket(George)/Roket(George).entitlements";
+				DEVELOPMENT_TEAM = 3CZ53G4TP3;
 				INFOPLIST_FILE = "Roket(George)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.georgechin.Roket-George-";
@@ -268,8 +409,11 @@
 		};
 		38664EE71E7BDA2D0041AF17 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA9235FABB3F76FA3B3424AA /* Pods-Roket(George).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Roket(George)/Roket(George).entitlements";
+				DEVELOPMENT_TEAM = 3CZ53G4TP3;
 				INFOPLIST_FILE = "Roket(George)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.georgechin.Roket-George-";
@@ -297,6 +441,7 @@
 				38664EE71E7BDA2D0041AF17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

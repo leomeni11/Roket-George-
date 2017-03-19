@@ -6,5 +6,10 @@ target 'Roket(George)' do
   use_frameworks!
 
   # Pods for Roket(George)
-
+    pod 'Firebase/Core' #initial
+    pod 'Firebase/Auth' #Authen
+    pod 'Firebase/Database' #real time dataBase
+    pod 'Firebase/Storage'
+	
+    	
 end
